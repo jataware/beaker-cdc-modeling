@@ -21,10 +21,10 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-  "beaker-bunsen>=0.0.9",
+  "beaker-bunsen>=0.0.10",
   "beaker-kernel>=1.5.6",
 
-  "pyrenew@git+https://github.com/CDCgov/multisignal-epi-inference.git#egg=pyrenew&subdirectory=model",
+  "pyrenew@git+https://github.com/CDCgov/multisignal-epi-inference.git@63ed209#egg=pyrenew&subdirectory=model",
 
 ]
 
