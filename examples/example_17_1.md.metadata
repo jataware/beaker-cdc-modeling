@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.observation.poisson",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.observation.poisson",
+  "source_uri": "py-mod:pyrenew.observation.poisson",
+  "generated_at": "2024-06-20T15:01:30.083021",
+  "source_sha256_hash": "5a77d71dd23c5698c7d3e35d8fcc179f9ee336915f00fa9de873d635b4d4db2a",
+  "start_line": 42,
+  "stop_line": 78
+}

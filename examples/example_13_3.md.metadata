@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.latent.infection_seeding_method",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.latent.infection_seeding_method",
+  "source_uri": "py-mod:pyrenew.latent.infection_seeding_method",
+  "generated_at": "2024-06-20T15:00:56.660206",
+  "source_sha256_hash": "66e65bd3992689fc5b4fc13b21f0227692a22d6990be881559e05bc8d8fc449a",
+  "start_line": 122,
+  "stop_line": 185
+}

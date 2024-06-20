@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.convolve",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.convolve",
+  "source_uri": "py-mod:pyrenew.convolve",
+  "generated_at": "2024-06-20T16:30:10.465063",
+  "source_sha256_hash": "65fbe2eb9ce675a538663ea209d2736785eeef25afbb9d6460e6e1d9dba1ed3e",
+  "start_line": 89,
+  "stop_line": 167
+}

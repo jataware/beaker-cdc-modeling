@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.arrayutils",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.arrayutils",
+  "source_uri": "py-mod:pyrenew.arrayutils",
+  "generated_at": "2024-06-20T16:30:07.058013",
+  "source_sha256_hash": "542bd48245ea2a17feba1516c965fcbfedd87e22ebc8cfb962ada4fd028d3e99",
+  "start_line": 68,
+  "stop_line": 96
+}

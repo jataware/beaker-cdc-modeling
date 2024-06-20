@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.observation.negativebinomial",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.observation.negativebinomial",
+  "source_uri": "py-mod:pyrenew.observation.negativebinomial",
+  "generated_at": "2024-06-20T16:30:44.429511",
+  "source_sha256_hash": "935766e455ffeb638edaeb4ec3a55e639f72b3b55a4dfc7b9bb5b36f91ebf294",
+  "start_line": 62,
+  "stop_line": 103
+}

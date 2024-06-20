@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.process.rtperiodicdiff",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.process.rtperiodicdiff",
+  "source_uri": "py-mod:pyrenew.process.rtperiodicdiff",
+  "generated_at": "2024-06-20T15:01:39.584648",
+  "source_sha256_hash": "860b34edc365577873e35d791089cd8fcb96cd6bc5eacfd05061fb190bb5eb75",
+  "start_line": 151,
+  "stop_line": 192
+}

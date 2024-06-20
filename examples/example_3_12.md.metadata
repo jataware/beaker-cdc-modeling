@@ -1,0 +1,8 @@
+{
+  "resource_id": "local:file:documentation/model/docs/pyrenew_demo.qmd",
+  "source_uri": "file:documentation/model/docs/pyrenew_demo.qmd",
+  "generated_at": "2024-06-20T14:59:18.972058",
+  "source_sha256_hash": "9cdec0d1fddec74f2b75d8a4f9a6c39b4438ffdffb727e538063575f4d0dcfa6",
+  "start_line": 173,
+  "stop_line": 180
+}

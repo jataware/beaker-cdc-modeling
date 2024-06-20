@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.latent.infection_functions",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.latent.infection_functions",
+  "source_uri": "py-mod:pyrenew.latent.infection_functions",
+  "generated_at": "2024-06-20T15:00:40.875804",
+  "source_sha256_hash": "08894687f20ac3e9b44ced9a02b628f948e176883d209928e887aa23acbee6c1",
+  "start_line": 52,
+  "stop_line": 91
+}

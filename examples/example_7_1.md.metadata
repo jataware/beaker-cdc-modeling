@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.regression",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.regression",
+  "source_uri": "py-mod:pyrenew.regression",
+  "generated_at": "2024-06-20T15:00:15.432461",
+  "source_sha256_hash": "b0455b26c4959ac8c453a1242bc1f5b614d6a320056b3fdb2d131bab511cc23e",
+  "start_line": 34,
+  "stop_line": 151
+}

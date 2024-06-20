@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.process.ar",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.process.ar",
+  "source_uri": "py-mod:pyrenew.process.ar",
+  "generated_at": "2024-06-20T15:01:34.761995",
+  "source_sha256_hash": "48297729209199cbb27a0384623f6c77c064b2bfa52173f9a20f8764989c43fc",
+  "start_line": 46,
+  "stop_line": 94
+}

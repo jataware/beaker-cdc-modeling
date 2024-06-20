@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.datasets.infection_admission_interval",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.datasets.infection_admission_interval",
+  "source_uri": "py-mod:pyrenew.datasets.infection_admission_interval",
+  "generated_at": "2024-06-20T15:00:18.637354",
+  "source_sha256_hash": "15dfe667d079fe1f0e951ababa2f2338cd3b73e8110bedb3bbd33254a64fa486",
+  "start_line": 7,
+  "stop_line": 34
+}

@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.math",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.math",
+  "source_uri": "py-mod:pyrenew.math",
+  "generated_at": "2024-06-20T16:30:21.357999",
+  "source_sha256_hash": "258b8877afa26827bb65040d4686bb6eced842e19b79a717f62ccbdc95ce17da",
+  "start_line": 109,
+  "stop_line": 143
+}

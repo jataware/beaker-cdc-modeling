@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.model.admissionsmodel",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.model.admissionsmodel",
+  "source_uri": "py-mod:pyrenew.model.admissionsmodel",
+  "generated_at": "2024-06-20T16:30:37.038070",
+  "source_sha256_hash": "8d0712df3bc460b976b05fa55cc1c0a224066247d6f0365af3e271d571bcd1ad",
+  "start_line": 195,
+  "stop_line": 307
+}

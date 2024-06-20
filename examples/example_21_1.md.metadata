@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.process.simplerandomwalk",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.process.simplerandomwalk",
+  "source_uri": "py-mod:pyrenew.process.simplerandomwalk",
+  "generated_at": "2024-06-20T15:01:44.802965",
+  "source_sha256_hash": "56db41ad1ce549c78672e05cf3330ce356d2fe057848237b53f77785be05fb79",
+  "start_line": 34,
+  "stop_line": 70
+}

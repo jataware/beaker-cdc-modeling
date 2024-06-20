@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.distutil",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.distutil",
+  "source_uri": "py-mod:pyrenew.distutil",
+  "generated_at": "2024-06-20T15:00:04.275416",
+  "source_sha256_hash": "74d530e2fa84817f1cee3c0b61863081ccae16875c6c5d787e6e6072db2b3fe3",
+  "start_line": 65,
+  "stop_line": 82
+}

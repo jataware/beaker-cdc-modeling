@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.model.rtinfectionsrenewalmodel",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.model.rtinfectionsrenewalmodel",
+  "source_uri": "py-mod:pyrenew.model.rtinfectionsrenewalmodel",
+  "generated_at": "2024-06-20T15:01:26.362858",
+  "source_sha256_hash": "0d0310ae8d1e9f89cc99afa156ed444fb7619ea1cd1570ba9d6e26cb23e58d11",
+  "start_line": 250,
+  "stop_line": 367
+}

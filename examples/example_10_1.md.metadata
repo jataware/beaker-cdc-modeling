@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.datasets.wastewater",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.datasets.wastewater",
+  "source_uri": "py-mod:pyrenew.datasets.wastewater",
+  "generated_at": "2024-06-20T15:00:20.800595",
+  "source_sha256_hash": "7c04eb47ba5fc81fc3242bbfab7ef0bcf851d91a18443b4a2c31d54e061c74c6",
+  "start_line": 12,
+  "stop_line": 52
+}

@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.mcmcutils",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.mcmcutils",
+  "source_uri": "py-mod:pyrenew.mcmcutils",
+  "generated_at": "2024-06-20T15:00:09.362437",
+  "source_sha256_hash": "c2dc8e772b286f0579b3b29af05f26e76cc9c278182a8f7d532892a07aaf6567",
+  "start_line": 83,
+  "stop_line": 158
+}

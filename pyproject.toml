@@ -1,0 +1,102 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "beaker-cdc-modeling"
+dynamic = ["version"]
+description = 'Beaker/Bunsen context for epidemiological modeling and analytics from the CDC Center for Forecasting and Outbreak Analytics (CFA)'
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Matthew Printz", email = "matt@jataware.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "beaker-bunsen>=0.0.9",
+  "beaker-kernel>=1.5.6",
+
+  "pyrenew@git+https://github.com/CDCgov/multisignal-epi-inference.git#egg=pyrenew&subdirectory=model",
+
+]
+
+[tool.hatch.build.hooks.bunsen]
+require-runtime-dependencies = true
+
+documentation_path = "documentation"
+examples_path = "examples"
+
+[tool.hatch.build.hooks.bunsen.libraries.python3]
+pyrenew = """
+A Package for Bayesian Renewal Modeling with JAX and Numpyro
+pyrenew is a flexible tool for simulation and statistical inference of epidemiological models, emphasizing renewal
+models. Built on top of the numpyro Python library, pyrenew provides core components for model building, including
+pre-defined models for processing various types of observational processes.
+"""
+
+
+[project.urls]
+Documentation = "https://github.com/jataware/beaker-cdc-modeling#readme"
+Issues = "https://github.com/jataware/beaker-cdc-modeling/issues"
+Source = "https://github.com/jataware/beaker-cdc-modeling"
+
+[tool.hatch.version]
+path = "src/beaker_cdc_modeling/__about__.py"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.envs.default]
+python="3.12"
+dependencies = [
+  "coverage[toml]>=6.5",
+  "pytest",
+]
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = [
+  "- coverage combine",
+  "coverage report",
+]
+cov = [
+  "test-cov",
+  "cov-report",
+]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.12"]
+
+[tool.hatch.envs.types]
+dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/beaker_cdc_modeling tests}"
+
+[tool.coverage.run]
+source_pkgs = ["beaker_cdc_modeling", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/beaker_cdc_modeling/__about__.py",
+]
+
+[tool.coverage.paths]
+beaker_cdc_modeling = ["src/beaker_cdc_modeling", "*/beaker-cdc-modeling/src/beaker_cdc_modeling"]
+tests = ["tests", "*/beaker-cdc-modeling/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

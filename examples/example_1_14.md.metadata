@@ -1,0 +1,8 @@
+{
+  "resource_id": "local:file:documentation/model/docs/example_with_datasets.qmd",
+  "source_uri": "file:documentation/model/docs/example_with_datasets.qmd",
+  "generated_at": "2024-06-20T16:29:58.839632",
+  "source_sha256_hash": "e444e15844a31c4f73976daa7d0638b6b3ee2dc48f4049e6568b6e2d93082a07",
+  "start_line": 320,
+  "stop_line": 355
+}

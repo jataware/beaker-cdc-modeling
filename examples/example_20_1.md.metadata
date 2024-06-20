@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.process.rtrandomwalk",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.process.rtrandomwalk",
+  "source_uri": "py-mod:pyrenew.process.rtrandomwalk",
+  "generated_at": "2024-06-20T15:01:42.272209",
+  "source_sha256_hash": "18f1543a198bc4455c77972a38940c88d89b168ad960f6262af4702d1e82525d",
+  "start_line": 90,
+  "stop_line": 125
+}

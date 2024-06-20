@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.transformation.builtin",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.transformation.builtin",
+  "source_uri": "py-mod:pyrenew.transformation.builtin",
+  "generated_at": "2024-06-20T15:01:46.455393",
+  "source_sha256_hash": "d6128fdcf62751758c033a727717b06a1537769b306cefe87cdf2dbed2ec1364",
+  "start_line": 7,
+  "stop_line": 31
+}

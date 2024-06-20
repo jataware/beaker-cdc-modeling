@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.latent.infectionswithfeedback",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.latent.infectionswithfeedback",
+  "source_uri": "py-mod:pyrenew.latent.infectionswithfeedback",
+  "generated_at": "2024-06-20T15:01:09.280206",
+  "source_sha256_hash": "594958aff6bc78fbd651ce2ff625c068aa035f851978bd9a538f8938d44b8154",
+  "start_line": 124,
+  "stop_line": 206
+}

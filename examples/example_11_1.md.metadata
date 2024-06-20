@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.latent.hospitaladmissions",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.latent.hospitaladmissions",
+  "source_uri": "py-mod:pyrenew.latent.hospitaladmissions",
+  "generated_at": "2024-06-20T15:00:33.729920",
+  "source_sha256_hash": "a0bbc0e042231d3a7bcdc26d628145424bf6195f24f0378b54aeec7b0126f226",
+  "start_line": 154,
+  "stop_line": 209
+}

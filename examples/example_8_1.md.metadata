@@ -1,0 +1,11 @@
+{
+  "package": "pyrenew.datasets.generation_interval",
+  "type": "code",
+  "language": "python3",
+  "resource_id": "python:py-mod:pyrenew.datasets.generation_interval",
+  "source_uri": "py-mod:pyrenew.datasets.generation_interval",
+  "generated_at": "2024-06-20T15:00:17.174024",
+  "source_sha256_hash": "896bba3d1208137cef3f6fe6f8f645751f36468f3c8f22cf356f73e979650639",
+  "start_line": 7,
+  "stop_line": 33
+}
