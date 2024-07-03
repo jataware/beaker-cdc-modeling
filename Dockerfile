@@ -5,7 +5,7 @@ EXPOSE 8888
 RUN apt update && apt install -y lsof hdf5
 
 # Install Python requirements
-RUN pip install --upgrade --no-cache-dir hatch pip
+RUN pip install --upgrade --no-cache-dir hatch pip arviz
 
 WORKDIR /jupyter
 COPY --chown=1000:1000 ./ /jupyter
