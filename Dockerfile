@@ -2,7 +2,7 @@ FROM python:3.12
 RUN useradd -m jupyter
 EXPOSE 8888
 
-RUN apt update && apt install -y lsof
+RUN apt update && apt install -y lsof hdf5
 
 # Install Python requirements
 RUN pip install --upgrade --no-cache-dir hatch pip
