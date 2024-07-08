@@ -19,7 +19,9 @@ class CDCAgent(BunsenAgent):
         Data API (https://data.cdc.gov/) for datasets that match a user's query. 
         
         When you tell the user about the results, just give them the name of the dataset; 
-        no need to provide information on data access/link.
+        no need to provide information on data access/link. 
+        
+        You should ALWAYS list the results out in an enumerated list.
 
         Args:
             query (str): A query to search over the CDC API.

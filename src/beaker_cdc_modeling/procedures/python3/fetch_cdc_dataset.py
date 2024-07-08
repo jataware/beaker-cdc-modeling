@@ -1,25 +1,38 @@
 import pandas as pd
 
-# Function to query a specific dataset
+# Function to query a specific dataset and retrieve all rows
 def query_dataset(endpoint, params):
-    dataset = []
     base_url = "https://data.cdc.gov/resource/"
     url = f"{base_url}{endpoint}.json"
-    response = requests.get(url, params=params)
-    if response.status_code == 200:
-        data = response.json()
-        for item in data:
-            dataset.append(item)
-        return dataset
-    else:
-        print(f"Failed to retrieve data. HTTP Status code: {response.status_code}")
+    all_data = []
+    offset = 0
+    limit = 1000  # Adjust limit as needed, maximum is typically 1000
 
-endpoint = '{{ endpoint }}' 
-example_params = {
-    # TODO: Add parameters to filter the dataset as needed
-    # "$limit": 10, 
-}
-data = query_dataset(endpoint, example_params)
+    while True:
+        # Update parameters with the current offset and limit
+        params.update({
+            "$limit": limit,
+            "$offset": offset
+        })
+
+        # Make the GET request to the CDC API
+        response = requests.get(url, params=params)
+        
+        if response.status_code == 200:
+            data = response.json()
+            if not data:  # If no more data is returned, break the loop
+                break
+            all_data.extend(data)  # Append the retrieved data to the list
+            offset += limit  # Increment the offset for the next batch
+        else:
+            print(f"Failed to retrieve data. HTTP Status code: {response.status_code}")
+            break
+
+    return all_data
+
+endpoint = "{{ endpoint }}"
+params = {}
+data = query_dataset(endpoint, params)
 
 try:
     data = pd.DataFrame(data)
