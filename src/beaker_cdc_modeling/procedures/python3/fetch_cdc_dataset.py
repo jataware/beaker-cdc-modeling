@@ -36,7 +36,7 @@ data = query_dataset(endpoint, params)
 
 try:
     data = pd.DataFrame(data)
-    print(data)
+    data
 except Exception as e:
     print(f"Failed to convert data to DataFrame: {e}")
-    print(data)
+    data

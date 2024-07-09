@@ -18,4 +18,4 @@ def list_filtered_datasets(keyword):
 
 # Filter datasets based on query
 filtered_datasets = list_filtered_datasets('{{ query }}')
-print(filtered_datasets)
+filtered_datasets
